@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <!-- <img src="./assets/logo.png"> -->
      <h1> Witaj w systemie do zapisów na zajęcia </h1>
 
     <div v-if="isAuthenticated">
@@ -17,6 +17,7 @@
 </template>
 
 <script>
+import "milligram";
 export default {
   name: 'app',
   data () {
